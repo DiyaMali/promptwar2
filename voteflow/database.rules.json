@@ -1,0 +1,17 @@
+{
+  "rules": {
+    "sessions": {
+      "$uid": {
+        ".read": "auth != null && auth.uid == $uid",
+        ".write": "auth != null && auth.uid == $uid",
+        ".validate": "newData.hasChildren(['role', 'currentStep'])",
+        "role": {
+          ".validate": "newData.isString() && (newData.val() == 'voter' || newData.val() == 'candidate' || newData.val() == 'officer' || newData.val() == 'journalist')"
+        },
+        "currentStep": {
+          ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() <= 7"
+        }
+      }
+    }
+  }
+}

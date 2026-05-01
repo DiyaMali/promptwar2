@@ -1,0 +1,53 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build artifacts
+dist/
+build/
+.next/
+out/
+bin/
+obj/
+
+# Logs and databases
+*.log
+*.sqlite
+logs/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backups and temporary files
+*.bak
+*.old
+*.tmp
+*.temp
+*.zip
+*.rar
+*.tar
+*.gz
+*.7z
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific
+voteflow.bak/
+voteflow2.bak/
+voteflow/dist/
+voteflow/node_modules/
+
+# Media (if they bloat the repo)
+# Keep only essential assets. Large assets should be externally hosted or optimized.
+# *.mp4
+# *.mov
