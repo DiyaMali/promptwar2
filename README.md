@@ -1,11 +1,10 @@
-# 🚀 voteflow
-
+# 🚀 •	CHUNAV MITRA 
 🔗 GitHub Repository: https://github.com/DiyaMali/promptwar2
 
 
 ## 🧠 Project Overview
 
-**voteflow** is a web-based AI-powered application designed to explore and enhance prompt-based interactions.  
+**•	CHUNAV MITRA ** is a web-based AI-powered application designed to explore and enhance prompt-based interactions.  
 The system is built to handle user inputs intelligently and return optimized, structured outputs using a scalable backend architecture.
 
 The project is containerized using Docker and deployed on **Google Cloud Run** for scalable and serverless execution.
